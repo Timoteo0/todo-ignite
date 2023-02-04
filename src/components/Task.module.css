@@ -1,0 +1,49 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--gray-500);
+  font-size: 0.875rem;
+  padding: 1rem;
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.task:last-child {
+  margin-bottom: 0;
+}
+
+.task svg{
+  color: var(--blue-300);
+}
+
+.task svg.done{
+  color: var(--purple-500);
+}
+
+.task div {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.content {
+  width: 39.5rem;
+  color: var(--gray-100);
+}
+
+.contentDone {
+  width: 39.5rem;
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.task button {
+  background: transparent;
+  border: none;
+  color: var(--gray-300);
+  padding: none;
+  cursor: pointer;
+  display: flex;
+}

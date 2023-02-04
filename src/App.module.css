@@ -1,0 +1,91 @@
+.wrapper {
+  width: 46rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: -1.688rem;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info p {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.incomplete {
+  color: var(--blue-300);
+}
+
+.completed {
+  color: var(--purple-300);
+}
+
+.info span {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  padding: 0.125rem 0.5rem;
+  border-radius: 8px;
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+
+.form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 4rem;
+}
+
+.form input {
+  background: var(--gray-500);
+  color: var(--gray-100);
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+
+
+}
+
+.form input::placeholder{
+  color: var(--gray-300);
+}
+
+.form button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--blue-500);
+  color: var(--gray-100);
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.emptyTasks {
+  width: 100%;
+  height: 244px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: var(--gray-300);
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+
+.emptyTasks img {
+  width: 3.5rem;
+}
+
+.tasks {
+  margin-top: 1.5rem;
+}
